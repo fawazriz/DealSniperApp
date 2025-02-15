@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+package-lock.json
+
+# Environment variables (Secrets)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+
+# Build output (Frontend & Backend)
+dist/
+build/
+.cache/
+.vite/
+out/
+
+# Editor and OS-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Backend-specific (if using Express/Node.js)
+coverage/
+prisma/migrations/  # Prisma ORM migrations
+database.sqlite
+database.sqlite-journal
+
+# Frontend-specific (if using React/Vite)
+public/build/
+public/*.cache
+*.css.map
+
+# Testing
+jest/
+cypress/
+coverage/
